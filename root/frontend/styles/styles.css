@@ -2,6 +2,7 @@ p   {
     border: 1rem solid green;
     margin: 1rem;
     padding: 2rem;
+    text-align: center;
 }
 
 a:link, a:visited{
