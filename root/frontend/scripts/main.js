@@ -3,6 +3,7 @@ function openNav() {
     if(screen.availWidth < 450){
         document.getElementById("mySidebar").style.width = "50%";
         document.getElementById("main").style.marginLeft = "50%";
+        document.getElementsByClassName("content").style.display = "none";
     }else{
         document.getElementById("mySidebar").style.width = "20%";
         document.getElementById("main").style.marginLeft = "20%";
