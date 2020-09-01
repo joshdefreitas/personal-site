@@ -1,10 +1,11 @@
 p   {
-    border: 1rem solid green;
-    margin: 1rem;
-    padding: 2rem;
+    margin: 0;
+    padding: 0;
     text-align: center;
     color: white;
 }
+
+
 
 body {
     background-color:#000000;
@@ -14,14 +15,26 @@ body {
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+    height: none;
     backface-visibility: hidden;
 }
 
 .container {
     height: auto;
     width: 100%;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
 }
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 
 .container:hover .image {
     opacity: 0.3;
@@ -82,8 +95,9 @@ body {
   .openbtn:hover {
     background-color: #444;
   }
+
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /* push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s; /* If you want a transition effect */
   }
@@ -102,6 +116,7 @@ body {
       .container {
           position: center;
           width: 50%;
+          margin-bottom: 1rem;
       }
 
   }
