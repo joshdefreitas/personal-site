@@ -5,7 +5,29 @@ p   {
     text-align: center;
 }
 
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 
+.container {
+    height: 10%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
 /* The sidebar menu */
 .sidebar {
     height: 100%; /* 100% Full-height */
@@ -65,7 +87,7 @@ p   {
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 100%) {
+  @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
