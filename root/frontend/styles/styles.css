@@ -5,18 +5,6 @@ p   {
     text-align: center;
 }
 
-a:link, a:visited{
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    background-color:#f4433f;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active{
-    background-color: red;
-}
 
 /* The sidebar menu */
 .sidebar {
@@ -77,7 +65,7 @@ a:hover, a:active{
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 100%) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
