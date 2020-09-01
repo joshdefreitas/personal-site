@@ -3,6 +3,11 @@ p   {
     margin: 1rem;
     padding: 2rem;
     text-align: center;
+    color: white;
+}
+
+body {
+    background-color:#000000;
 }
 
 .image {
