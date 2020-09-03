@@ -8,13 +8,13 @@ p   {
 }
 
 body {
-    background-color:#ffffff;
+    background-color: black;
 }
 
 * {
     box-sizing: border-box;
   }
-  
+
 .image {
     opacity: 1;
     display: block;
