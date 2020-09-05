@@ -1,3 +1,3 @@
 # personal-site
 
-joshdefreitas.me
+https://joshdefreitas.me/
